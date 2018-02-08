@@ -29,7 +29,7 @@ module.exports = {
 
           return {
             "currency": product,
-            "interval": interval,
+            "interval": `${interval} seconds`,
             "unix_timestamp": item[0],
             "time": dateString,
             "low": item[1],
